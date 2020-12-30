@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="res.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+      <style>
+    #msg{
+        visibility: hidden;
+        min-width: 250px;
+        background-color: chartreuse;
+        color: black;
+        text-align:center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 1;
+        right: 30%;
+        top: 30px;
+        font-size: larger;
+        margin-right: 30px;
+    }
+    #msg.show{
+        visibility: visible;
+        -webkit-animation: fadein 1.5s, fadeout  2.5s;
+        animation: fadein 1.5s, fadeout  2.5;
+    }
+    @-webkit-keyframes fadein{
+        from{top:0; opacity:0;}
+        to {top: 30px; opacity: 1;}
+    }
+    @keyframes fadein{
+        from{top:0; opacity: 0;}
+        to{top: 30px; opacity: 1;}
+    }
+    @-webkit-keyframes fadeout{
+    from{top:30px; opacity:1;}
+    to {top: 0; opacity: 0;}
+    }
+    @keyframes fadeout{
+    from{top:30px; opacity: 1;}
+    to{top: 0; opacity: 0;}
+    }
+    
+    </style>
+</head>
+
+<body>
+        <div class="reset">
+            <form>
+                <h2 style="color: orange;"><center> PASSWORD RESET</h2>
+                <input type="password" name="username" placeholder="old password"><br><br>
+                <input type="password" name="username" placeholder="new password"><br><br>
+                <input type="password" name="username" placeholder="confirm password"><br><br>
+                <input type="text" name="email" placeholder="Email address"><br><br>
+                <input type="button" value="save" onclick="myFunction()"> <br><br>
+                Go back to login page<a href="index.html" style="text-decoration:none"> Home page</a><br><br>
+                <div id="msg"> Your password is changed succesfully !!</div>
+
+                <script>
+                function myFunction() {
+                var x=document.getElementById("msg");
+                x.className="show";
+                setTimeout(function(){x.className =
+                x.className.replace("show", "");}, 3000);
+                }
+                </script>
+            </form>
+        </div>
+    </body>
+
+    </html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(./cofee.jpg);
+    background-size: cover;
+}
+a {
+    color: greenyellow;
+    text-decoration: blink;
+    font-style: italic;
+    font-size: large;
+    margin-left: 35px;
+}
+::placeholder {
+    color: grey;
+    opacity: 0.5;
+}
+.reset {
+    background: rgba(51, 51, 58, 0.589);
+    padding: 40px;
+    width: 400px;
+    margin: auto;
+    margin-top: 80px;
+    height: 500px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-size: larger;
+    border-radius: 50px;
+
+}
+input {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play',
+        sans-serif;
+    font-size: larger;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+}
+input[type=button] {
+    border: none;
+    width: 200px;
+    background: green;
+    color: white;
+    font-size: larger;
+    line-height: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    background-color: black;
+    ;
+}

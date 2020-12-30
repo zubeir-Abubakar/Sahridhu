@@ -1,0 +1,54 @@
+
+h1{
+    color:brown;
+    font-family: initial;
+    font-style: italic;
+    font-size: larger;
+}
+marquee{
+    width: 30%;
+    background-color: palevioletred;
+    font-size: large;
+    border-radius: 50px;
+}
+body{
+    font-size: larger;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav li{
+    display: inline;
+    padding: 0 70px;
+    background-color: whitesmoke;
+    width: 30px;
+    height: 70px;
+    border-radius: 50px;
+    color: aliceblue;
+}
+/* header .active a{
+    background-color;
+    color: black;
+} */
+a {
+    color: black;
+    text-decoration: blink;
+}
+
+a:hover {
+color: white;
+background: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.hamza{
+    background: firebrick;
+    padding:50px;
+    /* margin: 20px; */
+    /* height: 40%; */
+    width: 100%;
+
+}

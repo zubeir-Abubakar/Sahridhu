@@ -1,0 +1,70 @@
+ body{
+     font-family:  Tahoma, Geneva, sans-serif;
+     color:#fff;
+     background-image: url(./code.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .signing{
+     background: rgba(51, 51, 58, 0.589);
+     width: 400px;
+     padding: 80px;
+     margin: auto;
+     margin-top: 80px;
+     height: 500px;
+     margin-left:180x;
+     border-radius: 50px;
+ }
+ form{
+     width: 240px;
+     text-align:center;
+ }
+ input
+ {
+     width: 240px;
+     text-align: center;
+     background: transparent;
+     border:none;
+     border-bottom: 1px solid #fff;
+     font-family: 'play', sans-serif;
+     font-size: larger;
+     padding: 10px 0;
+     transition: border 0.5s;
+     outline: none;
+     color:#fff;
+     border-radius:50px; 
+ }
+ input[type=button]{
+     border:none;
+     width: 150px;
+     background:green;
+     color: white;
+     font-size: larger;
+     line-height: 25px;
+     padding: 10px;
+     border-radius: 15px;
+     cursor: pointer;
+ }
+ input[type=button]:hover {
+    color: #fff;
+    background-color: black;;
+ }
+ h2{
+     color: white;
+ }
+ a{
+     color: greenyellow;
+     text-decoration: blink;
+ }
+ a:hover{
+     color: rgb(20, 176, 238);
+ }
+ .container{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+ }
+ ::placeholder{
+     color: aliceblue;
+     opacity: 0.5;
+ }

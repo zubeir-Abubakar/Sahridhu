@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+\    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="sign.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <style>
+    #msg{
+        visibility: hidden;
+        min-width: 250px;
+        background-color: chartreuse;
+        color: black;
+        text-align:center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 1;
+        right: 30%;
+        top: 30px;
+        font-size: larger;
+        margin-right: 30px;
+    }
+    #msg.show{
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout  2.5s;
+        animation: fadein 0.5s, fadeout 2.5;
+    }
+    @-webkit-keyframes fadein{
+        from{top:0; opacity:0;}
+        to {top: 30px; opacity: 1;}
+    }
+    @keyframes fadein{
+        from{top:0; opacity: 0;}
+        to{top: 30px; opacity: 1;}
+    }
+    @-webkit-keyframes fadeout{
+    from{top:30px; opacity:1;}
+    to {top: 0; opacity: 0;}
+    }
+    @keyframes fadeout{
+    from{top:30px; opacity: 1;}
+    to{top: 0; opacity: 0;}
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="signup">
+        <form>
+            <h2><em>Register</em></h2>
+            <input type="text" name="username" placeholder="firstname"><br><br>
+            <input type="text" name="username" placeholder="lastname"><br><br>
+            <input type="password" name="password" placeholder="password"><br><br>
+            <input type="password" name="password" placeholder="confirm password"><br><br>
+            <input type="text" name="email" placeholder="Email address"><br><br>
+            <input type="button" value="sign up" onclick="myFunction()"> <br><br>
+            <div id="msg"> Congratulations you have Sign up succesfully !!</div>
+            <!-- <a href="login.html"><input type="button" value="signup"></a><br><br> -->
+            Already have an account ? <a href="index.html">&nbsp;Log In</a>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("msg");
+                    x.className = "show";
+                    setTimeout(function () {
+                        x.className =
+                            x.className.replace("show", "");
+                    }, 3000);
+                }
+            </script>
+        </form>
+    </div>
+</body>
+</html>
