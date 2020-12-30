@@ -38,7 +38,7 @@ a:hover, a:focus, a:active {
 }
 
 a:hover, a:active {
-    out line: 0;
+    outline: 0;
 }
 
 
@@ -54,21 +54,7 @@ h1, h2, h3, h4, h5, h6,
     text-rendering: optimizeLegibility;
 }
 
-/* h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-    margin-top: 6rem;
-    margin-bottom: 1.8rem;
-}
 
-@media only screen and (max-width: 600px) {
-    h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-        margin-top: 5.1rem;
-    }
-}
-
-h5, .h5, h6, .h6 {
-    margin-top: 4.2rem;
-    margin-bottom: 1.5rem;
-} */
 
 @media only screen and (max-width: 600px) {
     h5, .h5, h6, .h6 {
