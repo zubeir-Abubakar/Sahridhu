@@ -9,12 +9,12 @@ a {
     color: greenyellow;
     text-decoration: blink;
     font-style: italic;
-    font-si ze: large;
+    font-size: large;
     margin-left: 35px;
 }
 
 ::placeholder {
-    color: grey;
+    col or: grey;
     opacity: 0.5;
 }
 
