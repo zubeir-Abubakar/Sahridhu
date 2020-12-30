@@ -14,8 +14,8 @@ a {
 }
 
 ::placeholder {
-    col or: grey;
-    opacity: 0.5;
+    color: grey;
+    opac ity: 0.5;
 }
 
 .forget {
