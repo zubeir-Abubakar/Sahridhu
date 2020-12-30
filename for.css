@@ -15,13 +15,13 @@ a {
 
 ::placeholder {
     color: grey;
-    opac ity: 0.5;
+    opacity: 0.5;
 }
 
 .forget {
     background: rgba(51, 51, 58, 0.589);
     padding: 40px;
-    width: 400px;
+    widt h: 400px;
     margin: auto;
     margin-top: 80px;
     height: 500px;
