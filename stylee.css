@@ -19,7 +19,7 @@ html, body {
     background-size: cover;
     font-family: "lora-regular", serif;
     font-size: 1.7rem;
-    font- style: normal;
+    font-style: normal;
     font-weight: normal;
     line-height: 1.765;
     margin: 0;
@@ -38,7 +38,7 @@ a:hover, a:focus, a:active {
 }
 
 a:hover, a:active {
-    outline: 0;
+    out line: 0;
 }
 
 
